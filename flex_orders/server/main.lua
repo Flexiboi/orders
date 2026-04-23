@@ -1,5 +1,5 @@
 local orders = {}
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1450844700306182317/LeAig3k640f213WD1MAWhZ54aBZ9osQcdXc8rwn089zqJSCuHvCEyVoORq9cOscC0H6c"
+local WEBHOOK_URL = ""
 
 local function SendWebhook(title, description)
     if WEBHOOK_URL == "" or WEBHOOK_URL == nil then return end
